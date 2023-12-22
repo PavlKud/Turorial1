@@ -42,10 +42,44 @@
 //   console.log()
 //   console.log()
 
-function getExtremeElements(array) {
-    let firstElement = array[0];
-    let lastElement = array[array.length - 1];
+// function getExtremeElements(array) {
+//     let firstElement = array[0];
+//     let lastElement = array[array.length - 1];
   
-    return[firstElement, lastElement]
-  }
-  console.log(getExtremeElements([1, 2, 3, 4, 5]))
+//     return[firstElement, lastElement]
+//   }
+//   console.log(getExtremeElements([1, 2, 3, 4, 5]))
+
+// function calculateEngravingPrice(message, pricePerWord) {
+  
+//   let letters = message.split(" ").length;
+//   return letters * pricePerWord;
+
+ 
+// }
+
+// console.log(calculateEngravingPrice("JavaScript is in my blood", 10))
+
+
+
+// const oldClients = ["Mango", "Ajax", "Poly", "Kiwi"];
+// const newClients = ["Peach", "Houston"];
+// let allClient = oldClients.concat(newClients);
+// console.log(allClient);
+
+
+// function getSlice(array, value) {
+//   let index;
+//   index = array.indexOf(value);
+//   if (index === -1){
+//     return[];
+//       }else{
+//         return array.slice(0,index + 1)
+//       }
+  
+// }
+
+
+
+// console.log(getSlice(["Mango", "Poly", "Ajax"], "Poly")) //["Mango", "Poly"]
+// console.log(getSlice(["Mango", "Poly", "Ajax"], "Ajax")) //["Mango", "Poly", "Ajax"]
