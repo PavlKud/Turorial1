@@ -87,13 +87,75 @@
 
 
 
-function getEvenNumbers(start, end) {
-  const evenNumbers = [];
-  for (let i = start; i <= end; i++){
-    if(i % 2 === 0){
-      evenNumbers.push(i)
-    }
-  }
-  return evenNumbers
-}
-console.log(getEvenNumbers(3, 11))
+// function getEvenNumbers(start, end) {
+//   const evenNumbers = [];
+//   for (let i = start; i <= end; i++){
+//     if(i % 2 === 0){
+//       evenNumbers.push(i)
+//     }
+//   }
+//   return evenNumbers
+// }
+// console.log(getEvenNumbers(3, 11))
+
+
+// function getCommonElements(array1, array2) {
+//   // Створюємо порожній масив для зберігання спільних елементів
+//   const commonElements = [];
+//   // Використовуємо цикл for для ітерації кожного елемента у array1
+//    for (let i = 0; i < array1.length; i++) {
+//     // Перевіряємо, чи поточний елемент існує у array2 за допомогою методу includes
+//    if (array2.includes(array1[i])) {
+//     // Якщо елемент існує, то додаємо його до нового масиву commonElements
+//      commonElements.push(array1[i]);
+//     }
+//   }
+//    return commonElements;
+// }
+
+// function getCommonElements(array1, array2) {
+//   // створюємо порожній масив для зберігання нового масиву
+//   const commonElements = [];
+//   // використовуємо цикл for для ітерації кожного елемента у array1
+//   for (let element of array1) {
+//     // у тілі циклу перевіряємо, чи поточний елемент існує у array2 за допомогою методу includes
+//     if (array2.includes(element)) {
+//       // якщо він існує, то додаємо елемент до нового масиву
+//       commonElements.push(element);
+//     }
+//   }
+//   // повертаємо наповнений масив спільних елементів як результат роботи функції
+//   return commonElements;
+// }
+
+
+
+// console.log(getCommonElements([1, 2, 3], [2, 4]))
+// console.log(getCommonElements([1, 2, 3], [2, 1, 17, 19]))
+// console.log(getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]))
+// console.log(getCommonElements([1, 2, 3], [10, 20, 30]))
+
+// function calculateTotalPrice(order) {
+//   let totalPrice = 0;
+//   for (const item of order) {
+//     totalPrice += item;
+//   }
+//   return totalPrice;
+// }
+
+// console.log(calculateTotalPrice([412, 371, 94, 63, 176]))
+// console.log(calculateTotalPrice([164, 48, 291]))
+// console.log(calculateTotalPrice([12, 85, 37, 4]))
+
+// // функція createReversedArray, яка приймає довільну кількість аргументів
+// function createReversedArray() {
+//   // створюємо порожній масив, у який будемо додавати аргументи
+//   const array = [];
+//   // використовуємо цикл for для ітерації кожного аргумента
+//   for (let i = 0; i < arguments.length; i++) {
+//     // додаємо аргумент до початку масиву
+//     array.unshift(arguments[i]);
+//   }
+//   // повертаємо масив як результат функції
+//   return array;
+// }
