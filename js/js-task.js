@@ -159,3 +159,49 @@
 //   // повертаємо масив як результат функції
 //   return array;
 // }
+
+// const apartment = {
+//     imgUrl: "https://via.placeholder.com/640x480",
+//     descr: "Spacious apartment in the city center",
+//     rating: 4.7,
+//     price: 5000,
+//     tags: ["premium", "promoted", "top", "trusted"],
+//     owner: {
+//       name: "Henry Sibola",
+//       phone: "982-126-1588",
+//       email: "henry.carter@aptmail.com",
+//     },
+// };
+  
+//   apartment.area = 60;
+//   apartment.rooms = 3;
+//   apartment.location = {
+//     contry: "Jamaica",
+//     city: "Kingston"
+//   };
+  
+
+
+  
+
+//   const apartment = {
+//     descr: "Spacious apartment in the city center",
+//     rating: 4,
+//     price: 2153,
+//   };
+  
+//   const keys = Object.keys(apartment);
+//   console.log(keys)
+  
+//   const values = Object.values(apartment);
+//   console.log(values)
+  
+function countTotalSalary(salaries) {
+    let totalSalary = 0;
+    fo
+  }
+  
+  
+
+
+
