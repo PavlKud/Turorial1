@@ -196,12 +196,20 @@
 //   const values = Object.values(apartment);
 //   console.log(values)
   
-function countTotalSalary(salaries) {
-    let totalSalary = 0;
-    fo
-  }
-  
-  
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Stone skin"],
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(potionName) {
+//     this.potions.push(potionName)
+//   },
+// };
 
 
+// console.log()
+// console.log()
+// console.log()
+// console.log()
+// console.log()
 
