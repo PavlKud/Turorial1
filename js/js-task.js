@@ -232,21 +232,21 @@
 //   console.log(makeMessage("Ultracheese", deliverPizza));
 
 
-function makePizza(pizzaName, callback) {
-    console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
-    callback(pizzaName);
-  }
+// function makePizza(pizzaName, callback) {
+//     console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+//     callback(pizzaName);
+//   }
   
-  makePizza("Royal Grand", function eatPizza(pizzaName){
-    console.log('Eating pizza ${pizzaName}');    
-  });
+//   makePizza("Royal Grand", function eatPizza(pizzaName){
+//     console.log('Eating pizza ${pizzaName}');    
+//   });
   
-  makePizza("Ultracheese", eatPizza);
+//   makePizza("Ultracheese", eatPizza);
 
-  console.log("Eating pizza ${pizzaName}")
+//   console.log("Eating pizza ${pizzaName}")
 
   
- 
+
 
   
   
