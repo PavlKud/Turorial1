@@ -125,8 +125,11 @@
 
 
 
-const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
+// const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
 
-const evenNumbers = numbers.filter(value => value % 2 === 0);
-const oddNumbers = numbers.filter(value => value + 1);
+// const evenNumbers = numbers.filter(value => value % 2 === 0);
+// const oddNumbers = numbers.filter(value => value + 1);
+
+
+
 
