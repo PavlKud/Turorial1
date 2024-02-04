@@ -267,44 +267,65 @@
 
 // console.log(ascendingReleaseDates);
 
-const books = [
-    {
-      title: "The Last Kingdom",
-      author: "Bernard Cornwell",
-      rating: 8.38,
-    },
-    {
-      title: "Beside Still Waters",
-      author: "Robert Sheckley",
-      rating: 8.51,
-    },
-    {
-      title: "The Dream of a Ridiculous Man",
-      author: "Fyodor Dostoevsky",
-      rating: 7.75,
-    },
-    {
-      title: "Redder Than Blood",
-      author: "Tanith Lee",
-      rating: 7.94,
-    },
-    {
-      title: "Enemy of God",
-      author: "Bernard Cornwell",
-      rating: 8.67,
-    },
-  ];
+// const books = [
+//     {
+//       title: "The Last Kingdom",
+//       author: "Bernard Cornwell",
+//       rating: 8.38,
+//     },
+//     {
+//       title: "Beside Still Waters",
+//       author: "Robert Sheckley",
+//       rating: 8.51,
+//     },
+//     {
+//       title: "The Dream of a Ridiculous Man",
+//       author: "Fyodor Dostoevsky",
+//       rating: 7.75,
+//     },
+//     {
+//       title: "Redder Than Blood",
+//       author: "Tanith Lee",
+//       rating: 7.94,
+//     },
+//     {
+//       title: "Enemy of God",
+//       author: "Bernard Cornwell",
+//       rating: 8.67,
+//     },
+//   ];
   
-  const sortedByAuthorName = books.toSorted((firstBook, secondBook) => firstBook.title.localeCompare(secondBook.title));
+//   const sortedByAuthorName = books.toSorted((firstBook, secondBook) => firstBook.title.localeCompare(secondBook.title));
   
-  const sortedByReversedAuthorName = books.toSorted((firstBook, secondBook) => secondBook.title.localeCompare(firstBook.title));
+//   const sortedByReversedAuthorName = books.toSorted((firstBook, secondBook) => secondBook.title.localeCompare(firstBook.title));
   
-  const sortedByAscendingRating = books.toSorted((firstBook, secondBook) => firstBook.rating - secondBook.rating);
+//   const sortedByAscendingRating = books.toSorted((firstBook, secondBook) => firstBook.rating - secondBook.rating);
   
-  const sortedByDescentingRating = books.toSorted((firstBook, secondBook) => secondBook.rating - firstBook.rating);
+//   const sortedByDescentingRating = books.toSorted((firstBook, secondBook) => secondBook.rating - firstBook.rating);
 
-  console.log(sortedByDescentingRating);
-  console.log(sortedByAscendingRating)
-  console.log(sortedByReversedAuthorName)
-  console.log(sortedByAuthorName)
-  console.log()
+//   console.log(sortedByDescentingRating);
+//   console.log(sortedByAscendingRating)
+//   console.log(sortedByReversedAuthorName)
+//   console.log(sortedByAuthorName)
+//   console.log()
+
+
+const pizzaPalace = {
+  pizzas: ["Supercheese", "Smoked", "Four meats"],
+  checkPizza(pizzaName) {
+    return this.pizzas.includes(pizzaName);
+  },
+  order(pizzaName) {
+    const isPizzaAvailable = this.checkPizza(pizzaName);
+
+    if (!isPizzaAvailable) {
+      return `Sorry, there is no pizza named «${pizzaName}»`;
+    }
+
+    return `Order accepted, preparing «${pizzaName}» pizza`;
+  },
+};
+console.log(pizzaPalace.order("Smoked"));
+console.log(pizzaPalace.order("Four meats"));
+console.log(pizzaPalace.order("Big Mike"));
+console.log(pizzaPalace.order("Viennese"));
